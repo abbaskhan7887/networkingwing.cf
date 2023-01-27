@@ -1,0 +1,32 @@
+#list:hover {
+    color: lightblue;
+}
+
+#list:active {
+    color: gray;
+}
+
+#zoom {
+    transition: transform .2s;
+}
+
+#zoom:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+#credit {
+    /* padding: 1rem 1rem; */
+    margin: 1rem;
+}
